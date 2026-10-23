@@ -50,11 +50,6 @@ The uncropped test set contains a substantially higher proportion of Wake epochs
 
 - `sleep_stage_class.ipynb` — preprocessing, model training, evaluation, and experiments.
 
-## Limitations
-
-- Results are based on a single random seed.
-- The model uses bidirectional temporal context and is not a strictly causal next-stage predictor.
-- Unstructured weight pruning was evaluated without fine-tuning; reduced inference latency or model size has not been established.
 
 ## Authors
 
